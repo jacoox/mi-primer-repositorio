@@ -53,6 +53,12 @@ nav ul li {
     font-weight: bold;
     cursor: pointer;
 }
+.links{
+    color: white;
+    text-decoration: nome;
+    font-weight: bold;
+    cursor: pointer;
+}
 .a:hover{
     color: #FF00FF;
     transition: .3s;
@@ -156,4 +162,56 @@ button:hover{
     color: #FF00FF;
     text-decoration: none;
     margin-top: 50px;
+}
+/* formulario*/
+
+*{    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.form-register {
+    width: 400px;
+    background-color: #3f4142;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+
+}
+
+.controls{
+    width: 100%;
+    color: white;
+    background: #0a0a0a;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #F2F4FF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+
+}
+
+.form-register .botons {
+    width: 100%;
+    background: #605d5e;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+
 }
